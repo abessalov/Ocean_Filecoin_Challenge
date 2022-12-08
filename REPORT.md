@@ -74,17 +74,19 @@
 ## 3. Modelling
 We have used the prophet model for getting the final predictions (https://facebook.github.io/prophet/). 
 For the validation set we used the last 3 months: Nov, Oct, Sep. For the validation metric we have used Mean Absolute Percentage Error.
-The parameters were chosen from:
-- Train on the last 2 years data. Use weekly and yearly seasonality.
-- Train on the last 2 years data. Use only weekly seasonality.
-- Train on the last 1 year data. Use weekly and yearly seasonality.
-- Train on the last 1 year data. Use only weekly seasonality.
-- Train on the last 3 months data. Use weekly and yearly seasonality.
-- Train on the last 3 months data. Use only weekly seasonality.
+We have chosed the best model from the following list:
+- prophet2years_all: Train on the last 2 years data. Use weekly and yearly seasonality.
+- prophet2years: Train on the last 2 years data. Use only weekly seasonality.
+- prophet1years_all: Train on the last 1 year data. Use weekly and yearly seasonality.
+- prophet1years: Train on the last 1 year data. Use only weekly seasonality.
+- prophet6months_all: Train on the last 6 months data. Use weekly and yearly seasonality.
+- prophet6months: Train on the last 6 months data. Use only weekly seasonality.
 
 ### Mean average percentage score of different models:
 ![Screenshot](pictures/model_scores.PNG)
 
-### Models predictions:
+### Best model predictions:
 ![Screenshot](pictures/model_preds.PNG)
 
+### Best models components:
+![Screenshot](pictures/model_descr.PNG)
