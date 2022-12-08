@@ -71,6 +71,7 @@
 ![Screenshot](pictures/pairs1.PNG)
 
 
+----
 ## 3. Modelling
 We have used the prophet model for getting the final predictions (https://facebook.github.io/prophet/). 
 For the validation set we used the last 3 months: Nov, Oct, Sep. For the validation metric we have used Mean Absolute Percentage Error.
