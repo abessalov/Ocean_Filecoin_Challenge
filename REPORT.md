@@ -59,7 +59,7 @@
 - Correlation between Energy_used_to_store_data and Data_storage_capacity equals 1. It means that one is linearly depends on other.
 - Data_storage_capacity have correlations near to 1 with Cumulative_energy_use_estimate_bound and Cumulative_renewable_energy_purchases.
 
-### Pearson correlation matrix after elimiation of highly correlated features:
+### Pearson correlations after elimiation of highly correlated features:
 ![Screenshot](pictures/corr3.PNG)
 
 ### Correlations with the features in the task and Filecoin Close price:
