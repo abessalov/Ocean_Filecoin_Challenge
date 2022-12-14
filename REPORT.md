@@ -89,5 +89,5 @@ We have chosed the best model from the following list:
 ### Best model predictions:
 ![Screenshot](pictures/model_preds.PNG)
 
-### Best models components:
+### Best model components:
 ![Screenshot](pictures/model_descr.PNG)
